@@ -19,6 +19,7 @@ Source0: http://downloads.sourceforge.net/%{name}/%{oname}-%{version}.tar.bz2
 License: LGPL
 Group: System/Libraries
 Url: http://elfio.sourceforge.net/
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 
