@@ -22,7 +22,6 @@ Url: http://elfio.sourceforge.net/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
-
 %description
 %{common_description}
 
