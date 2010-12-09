@@ -1,7 +1,7 @@
 %define name elfio
 %define oname ELFIO
 %define version 1.0.3
-%define release %mkrel 4
+%define release %mkrel 5
 
 %define lib_major 1
 %define lib_name %mklibname %{name} %{lib_major}
