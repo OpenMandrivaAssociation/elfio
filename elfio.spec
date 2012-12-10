@@ -61,3 +61,33 @@ rm -rf %{buildroot}
 %{_libdir}/lib%{oname}.a
 
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 1.0.3-5mdv2011.0
++ Revision: 618034
+- the mass rebuild of 2010.0 packages
+
+* Thu Sep 03 2009 Thierry Vignaud <tv@mandriva.org> 1.0.3-4mdv2010.0
++ Revision: 428553
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 1.0.3-3mdv2009.0
++ Revision: 244695
+- rebuild
+- fix spacing at top of description
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 1mdv2008.1-current
++ Revision: 136403
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Tue Jan 09 2007 Olivier Blin <oblin@mandriva.com> 1.0.3-1mdv2007.0
++ Revision: 106249
+- remove invalid requirement
+- initial ELFIO release
+- Create elfio
+
