@@ -3,12 +3,12 @@
 
 Summary:	ELF (Executable and Linkable Format) reader and producer
 Name:		elfio
-Version:	1.0.3
-Release:	7
+Version:	2.2
+Release:	1
 License:	LGPLv2.1+
 Group:		System/Libraries
 Url:		http://elfio.sourceforge.net/
-Source0:	http://downloads.sourceforge.net/%{name}/%{oname}-%{version}.tar.bz2
+Source0:	http://downloads.sourceforge.net/project/%{name}/%{oname}-sources/%{oname}-%{version}/%{name}-%{version}.tar.gz
 
 %description
 ELFIO is a C++ library for reading and generating files in the ELF
@@ -17,8 +17,8 @@ product. It is also platform independent. The library uses standard
 ANSI C++ constructions and runs on a wide variety of architectures.
 
 %files
-%doc README AUTHORS doc/tutorial.pdf
-%{_bindir}/ELFDump
+%doc README AUTHORS doc/%{name}.pdf
+%{_bindir}/*
 
 #----------------------------------------------------------------------------
 
@@ -33,13 +33,12 @@ This package contains the header files and libraries needed for
 developing programs using the %{oname} library.
 
 %files -n %{sdevname}
-%{_includedir}/ELF*.h
-%{_libdir}/lib%{oname}.a
+%{_includedir}/%{name}/elf*.hpp
 
 #----------------------------------------------------------------------------
 
 %prep
-%setup -q -n %{oname}-%{version}
+%setup -q -n %{name}-%{version}
 
 %build
 %configure2_5x
