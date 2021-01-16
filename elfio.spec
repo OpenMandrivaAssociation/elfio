@@ -3,7 +3,7 @@
 
 Summary:	ELF (Executable and Linkable Format) reader and producer
 Name:		elfio
-Version:	3.4
+Version:	3.8
 Release:	1
 License:	LGPLv2.1+
 Group:		System/Libraries
@@ -41,9 +41,9 @@ developing programs using the %{oname} library.
 %setup -q -n %{name}-%{version}
 
 %build
-%configure2_5x
-%make
+%configure
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
