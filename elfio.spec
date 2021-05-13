@@ -3,7 +3,7 @@
 
 Summary:	ELF (Executable and Linkable Format) reader and producer
 Name:		elfio
-Version:	3.8
+Version:	3.9
 Release:	1
 License:	LGPLv2.1+
 Group:		System/Libraries
