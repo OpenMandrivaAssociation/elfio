@@ -7,7 +7,7 @@ Version:	3.11
 Release:	1
 License:	LGPLv2.1+
 Group:		System/Libraries
-Url:		http://elfio.sourceforge.net/
+Url:		https://elfio.sourceforge.net/
 Source0:	http://downloads.sourceforge.net/project/%{name}/%{oname}-sources/%{oname}-%{version}/%{name}-%{version}.tar.gz
 BuildRequires:	cmake ninja
 
